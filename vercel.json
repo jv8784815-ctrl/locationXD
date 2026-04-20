@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "routes": [
+    { "src": "/api/coords", "dest": "/api/coords.js" },
+    { "src": "/(.*)", "dest": "/index.html" }
+  ]
+}
